@@ -2,13 +2,16 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+    background-image: url("3e4249030c5e74559a952619d37da67f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 .container {
     width: 40vw;
     height: 70vh;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, #090715, rgb(21, 13, 94), #0b0723);
     margin: auto;
     table-layout: auto;
 }
@@ -20,6 +23,7 @@ body {
 .text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    color: #ffffff;
 }
 
 hr {
@@ -41,6 +45,7 @@ input {
     margin: 5px;
     margin-bottom: 10px;
     margin-right: 10px;
+    padding-right: 30px;
 }
 
 .gender {
@@ -63,7 +68,7 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bolder;
-    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+    background-image: linear-gradient(to bottom right, #0c0929, rgb(36, 23, 148), #8271e2);
     color: #ffffff;
     margin: 20px;
     border: none;
